@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 
 public class PostItem {
 
-    private final String receiver;
-    private final double weight;
+    protected final String receiver;
+    protected final double weight;
     //Versandart (A = A-post, B = B-post, E = Express)
-    private final char dispatchMode;
+    protected final char dispatchMode;
     public PostItem(String receiver, double weight, char dispatchMode){
         this.receiver = receiver;
         this.weight = weight;

@@ -118,7 +118,7 @@ public class main {
         List<Parcel> expressParcels= m.extractExpress(parcels);
 // Elemente in expressParcels :
 // [PostItem [Karl, 0.91, E]], PostItem [Peter, 3.5, E]]
-        System.out.println(expressLetter);
+        System.out.println(expressParcels);
 
         List<Integer> intList= new ArrayList<>();
         intList.add(1);
